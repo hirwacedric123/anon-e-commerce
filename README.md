@@ -1,4 +1,3 @@
-Here's the updated **README** file, explicitly emphasizing the use of **SASS** for styling:
 
 ---
 
