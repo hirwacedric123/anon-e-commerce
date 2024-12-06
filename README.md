@@ -1,44 +1,127 @@
-# Anon - An eCommerce Website
+Here's the updated **README** file, explicitly emphasizing the use of **SASS** for styling:
 
-![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/anon-ecommerce-website)
-![GitHub stars](https://img.shields.io/github/stars/codewithsadee/anon-ecommerce-website?style=social)
-![GitHub forks](https://img.shields.io/github/forks/codewithsadee/anon-ecommerce-website?style=social)
-[![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee)
-[![YouTube Video Views](https://img.shields.io/youtube/views/3l8Lob4ysI0?style=social)](https://youtu.be/3l8Lob4ysI0)
+---
 
-Anon is a fully responsive ecommerce website, maximum compatiblities in all mobile devices, built using HTML, CSS, and JavaScript.
+## E-commerce Website 🛒💻
 
-## Demo
+### Overview  
+A fully responsive **E-commerce Website** designed to provide a seamless shopping experience. The project uses **HTML**, **JavaScript**, and **SASS (SCSS)** for modular and scalable styling. This website is perfect for showcasing products, managing a shopping cart, and simulating checkout functionality.
 
-![Anon Desktop Demo](./website-demo-image/desktop.png "Desktop Demo")
-![Anon Mobile Demo](./website-demo-image/mobile.png "Mobile Demo")
+---
 
-## Prerequisites
+### Features  
+- **Responsive Design**: Optimized for all devices (desktop, tablet, and mobile).  
+- **Product Catalog**: Displays items with images, descriptions, and pricing.  
+- **Search and Filter**: Search for products and filter them by categories or price.  
+- **Shopping Cart**: Add, remove, and update products in a dynamic cart.  
+- **Checkout Simulation**: Mimics a checkout process (payment gateway integration optional).  
+- **Dark Mode**: User-friendly toggle for light and dark themes.  
+- **SASS Styling**: Utilizes variables, mixins, and nesting for reusable and efficient CSS.  
 
-Before you begin, ensure you have met the following requirements:
+---
 
-* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
+### Screenshots  
+> *Include screenshots or GIFs showing product pages, cart, responsiveness, and dark mode.*
 
-## Installing Anon
+---
 
-To install **Anon**, follow these steps:
+### Technologies Used  
+- **HTML5**: Semantic structure and accessibility.  
+- **SASS (SCSS)**: For structured, modular, and maintainable styling.  
+- **JavaScript**: Adds interactivity and dynamic features.  
 
-Linux and macOS:
+---
 
-```bash
-sudo git clone https://github.com/codewithsadee/anon-ecommerce-website.git
+### Installation  
+To set up the project locally:  
+
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/your-username/ecommerce-website.git
+   ```
+
+2. Navigate to the project directory:  
+   ```bash
+   cd ecommerce-website
+   ```
+
+3. Install SASS globally (if not already installed):  
+   ```bash
+   npm install sass -g
+   ```
+
+4. Compile SASS to CSS:  
+   ```bash
+   sass --watch scss:css
+   ```
+
+5. Open the `index.html` file in your browser to view the website.
+
+---
+
+### How to Use  
+1. **Explore Products**: Browse through the homepage to see all available items.  
+2. **Add to Cart**: Select products to add to the shopping cart.  
+3. **Manage Cart**: Update quantities or remove items directly from the cart.  
+4. **Simulate Checkout**: Click on the checkout button to mimic a purchase.  
+
+---
+
+### Folder Structure  
+```plaintext
+ecommerce-website/
+├── index.html          # Main HTML file
+├── css/
+│   └── style.css       # Compiled CSS file
+├── scss/               # SCSS files
+│   ├── _variables.scss # SCSS variables
+│   ├── _mixins.scss    # Reusable SCSS mixins
+│   ├── _components.scss# SCSS for reusable components
+│   └── style.scss      # Main SCSS file
+├── js/
+│   └── script.js       # JavaScript functionality
+├── images/             # Product images and assets
+├── products.json       # JSON file for product data (if applicable)
+└── README.md           # Project README file
 ```
 
-Windows:
+---
 
-```bash
-git clone https://github.com/codewithsadee/anon-ecommerce-website.git
-```
+### SASS Features Used  
+- **Variables**: Define reusable values for colors, fonts, and spacing.  
+- **Mixins**: Simplify repetitive code, such as media queries.  
+- **Nesting**: Keep CSS clean and organized by nesting related styles.  
+- **Partials and Importing**: Modularize SCSS files into components, variables, and mixins.  
 
-## Contact
+---
 
-If you want to contact me you can reach me at [Twitter](https://www.twitter.com/codewithsadee).
+### Contributing  
+Contributions are welcome!  
 
-## License
+1. Fork the repository.  
+2. Create a new branch (`git checkout -b feature-name`).  
+3. Commit your changes (`git commit -m 'Add feature'`).  
+4. Push to the branch (`git push origin feature-name`).  
+5. Open a Pull Request.
 
-This project is **free to use** and does not contains any license.
+---
+
+### License  
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+### Contact  
+For suggestions, feedback, or inquiries, reach out:  
+- **Name**: [your-email@example.com](mailto:your-email@example.com)  
+- **GitHub**: [github.com/your-username](https://github.com/your-username)  
+
+---
+
+### Example Preview  
+> Include a hosted live demo link (e.g., via GitHub Pages):  
+[Live Demo](https://your-username.github.io/ecommerce-website/)  
+
+---
+
+Would you like assistance with SASS file structuring or setting up specific features like the shopping cart logic? Let me know!
